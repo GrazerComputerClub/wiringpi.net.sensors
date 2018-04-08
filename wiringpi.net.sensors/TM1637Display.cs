@@ -242,7 +242,8 @@
 		{
 			char upperData = char.ToUpper(data);
 			_currentData[digitNumber] = upperData;
-			if (_char2SegCode.TryGetValue(upperData, out Segments segCode))
+			Segments segCode;
+			if (_char2SegCode.TryGetValue(upperData, out segCode))
 			{
 				//DP only supported at digit number 1 (center)
 				if (digitNumber == 1 && ShowDoublePoint)

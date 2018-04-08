@@ -19,7 +19,9 @@
 		static void Main(string[] args)
 		{
 			Console.CancelKeyPress += Console_CancelKeyPress;
-			ReadParameter(args, out int sampleCode, out List<int> possiblePins);
+			int sampleCode;
+			List<int> possiblePins;
+			ReadParameter(args, out sampleCode, out possiblePins);
 			Console.WriteLine("Start example -> Enter:\r\n1\tDHT sensor\r\n2\tHCSR04 sensor\r\n3\tTM1637 display");
 			if (sampleCode == 0)
 			{
@@ -49,7 +51,8 @@
 			{
 				for (int i = 0; i < args.Length; i++)
 				{
-					if (int.TryParse(args[i], out int value))
+					int value;
+					if (int.TryParse(args[i], out value))
 					{
 						if (i == 0)
 						{

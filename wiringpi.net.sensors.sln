@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27428.2015
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wiringpi.net.sensors", "wiringpi.net.sensors\wiringpi.net.sensors.csproj", "{45317FB7-D618-403C-ABE3-B8F19718E5BE}"
 EndProject
@@ -44,8 +44,5 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {E2E904EB-4CDA-408B-90D9-890FD5904674}
 	EndGlobalSection
 EndGlobal
