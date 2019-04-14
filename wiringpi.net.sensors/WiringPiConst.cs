@@ -1,6 +1,6 @@
 ﻿namespace wiringpi.net.sensors
 {
-	internal static class WiringPiConst
+	public static class WiringPiConst
 	{
 		public const int Input = 0;
 		public const int Output = 1;

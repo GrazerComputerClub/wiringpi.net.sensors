@@ -2,7 +2,7 @@
 {
 	using System.Runtime.InteropServices;
 
-	internal class WiringPi
+	public class WiringPi
 	{
 		static WiringPi()
 		{
