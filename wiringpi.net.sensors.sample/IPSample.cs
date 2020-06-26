@@ -16,7 +16,7 @@
 		private string _displayText;
 		private int _currentPosition = 0;
 
-		protected override int LoopSleepTime => 0;
+		//protected override int LoopSleepTime => 0;
 
 		protected override void DefinePins(int[] possiblePins)
 		{
