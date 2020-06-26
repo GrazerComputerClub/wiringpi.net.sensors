@@ -25,6 +25,9 @@
 			_backwardPin = possiblePins.Length > 2 ? possiblePins[2] : GC2xHATConst.DefaultButton1;
 			_forwardPin = possiblePins.Length > 3 ? possiblePins[3] : GC2xHATConst.DefaultButton3;
 			_abortPin = possiblePins.Length > 4 ? possiblePins[4] : GC2xHATConst.DefaultButton2;
+			WiringPi.PullUpDnControl(_backwardPin, WiringPiConst.PudDown);
+			WiringPi.PullUpDnControl(_forwardPin, WiringPiConst.PudDown);
+			WiringPi.PullUpDnControl(_abortPin, WiringPiConst.PudDown);
 			WiringPi.PinMode(_backwardPin, WiringPiConst.Input);
 			WiringPi.PinMode(_forwardPin, WiringPiConst.Input);
 			WiringPi.PinMode(_abortPin, WiringPiConst.Input);
