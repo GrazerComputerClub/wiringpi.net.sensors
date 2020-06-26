@@ -25,6 +25,10 @@
 			_backwardPin = possiblePins.Length > 2 ? possiblePins[2] : GC2xHATConst.DefaultButton1;
 			_forwardPin = possiblePins.Length > 3 ? possiblePins[3] : GC2xHATConst.DefaultButton3;
 			_abortPin = possiblePins.Length > 4 ? possiblePins[4] : GC2xHATConst.DefaultButton2;
+			WiringPi.PinMode(_backwardPin, WiringPiConst.Input);
+			WiringPi.PinMode(_forwardPin, WiringPiConst.Input);
+			WiringPi.PinMode(_abortPin, WiringPiConst.Input);
+			
 			_display = new TM1637Display(clockPin, dataPin, 60);
 
 			_ip = GetLocalIPAddress();
