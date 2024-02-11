@@ -1,11 +1,11 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wiringpi.net.sensors", "wiringpi.net.sensors\wiringpi.net.sensors.csproj", "{45317FB7-D618-403C-ABE3-B8F19718E5BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "wiringpi.net.sensors", "wiringpi.net.sensors\wiringpi.net.sensors.csproj", "{45317FB7-D618-403C-ABE3-B8F19718E5BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wiringpi.net.sensors.sample", "wiringpi.net.sensors.sample\wiringpi.net.sensors.sample.csproj", "{1D3C882A-70D5-44D7-B214-16FC80013976}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "wiringpi.net.sensors.sample", "wiringpi.net.sensors.sample\wiringpi.net.sensors.sample.csproj", "{1D3C882A-70D5-44D7-B214-16FC80013976}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
